@@ -1,6 +1,6 @@
 name: first-action
 # Trigger to start the workflow
-on:
+on: workflow_dispatch
 jobs:
   # Custom name
   first-job:
