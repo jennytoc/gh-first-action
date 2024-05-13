@@ -1,0 +1,14 @@
+name: first-action
+# Trigger to start the workflow
+on:
+jobs:
+  # Custom name
+  first-job:
+    # Defines "Runner" execution environment
+    runs-on: windows-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
+  
